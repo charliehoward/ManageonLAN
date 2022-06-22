@@ -1,11 +1,24 @@
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+.success {
+	background-color: lightGreen;
+	padding: 10px ;
+	text-align: center;
+	border-radius: 10px;
+	border: 2px solid green;
+	color: green;
+	font-size: 20px;
+}
 .grid-container-top {
 	display: grid;
 	grid-template-columns: 200px 200px 200px 200px;
 	padding: 0px;
 	border: 0px;
+	background-color: lightGray;
 }
 .grid-item-top {
-	background-color: lightGray;
 	padding: 12px;
 	font-size: 18px;
 	font-weight: bold;
