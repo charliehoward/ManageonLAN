@@ -13,7 +13,7 @@ a, a:hover, a:focus, a:active {
 }
 .grid-container-top {
 	display: grid;
-	grid-template-columns: 100px 150px 150px 125px 150px 150px;
+	grid-template-columns: 100px 125px 150px 125px 150px 150px;
 	padding: 0px;
 	border: 0px;
 	background-color: lightGray;
@@ -25,7 +25,7 @@ a, a:hover, a:focus, a:active {
 }
 .grid-container-p {
 	display: grid;
-	grid-template-columns: 100px 150px 150px 125px 150px 150px;
+	grid-template-columns: 100px 125px 150px 125px 150px 150px;
 	padding: 0px;
 	border: 0px;
 	background-color: white;
@@ -39,7 +39,7 @@ a, a:hover, a:focus, a:active {
 }
 .grid-container-s {
 	display: grid;
-	grid-template-columns: 100px 150px 150px 125px 150px 150px;
+	grid-template-columns: 100px 125px 150px 125px 150px 150px;
 	padding: 0px;
 	border: 0px;
 	background-color: white;
