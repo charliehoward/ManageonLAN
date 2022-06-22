@@ -1,4 +1,4 @@
 <?php
 shell_exec("sudo sh /var/www/html/scripts/porygonShutdown.sh");
-header('Location: /index.html?success=true');
+header('Location: /porygonShutdown.html?success=true');
 ?>
