@@ -53,7 +53,7 @@ a, a:hover, a:focus, a:active {
 }
 .grid-container-3 {
 	display: grid;
-	grid-template-columns: 100px 125px 150px 150px 150px;
+	grid-template-columns: 100px 125px 150px 125px 150px 150px;
 	padding: 0px;
 	border: 0px;
 	background-color: white;
@@ -80,4 +80,8 @@ input:hover {
 	background-color: #0047AB;
 	border: 2px solid #0047AB;
 	border-radius: 5px;
+}
+.status {
+	width: 40%;
+	margin-left: 8px;
 }

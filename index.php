@@ -15,6 +15,17 @@
     <div class="row">
       <div class="col-12" role="main">
         <h1 class="mb-4 mt-4"><span class="fas fa-power-off"></span><a href="index.html"> Manage on LAN</a></h1>
+		<div
+                <?php
+                if ($_SERVER['QUERY_STRING'] == 'successshutdown=true') {
+                        echo ' class="success"> Successfully sent shutdown request!';
+                } elseif ($_SERVER['QUERY_STRING'] == 'successwol=true') {
+                        echo ' class="success"> Successfully sent wakeup request!';
+                } else {
+                        echo ">";
+                }
+                ?>
+        </div>
 		<div class="grid-container-top">
 			<div class="grid-item-top">Device</div>
   			<div class="grid-item-top">IP Address</div>
@@ -36,7 +47,7 @@
                     } else {
                         $status1 = "images/offline.png";
                     }
-                    echo "<img src=\"$status1\" />";
+                    echo "<img class='status' src=\"$status1\" />";
                 }
                 pingAddress1("10.0.0.3");
                 ?>
@@ -65,7 +76,7 @@
                     } else {
                         $status2 = "images/offline.png";
                     }
-                    echo "<img src=\"$status2\" />";
+                    echo "<img class='status' src=\"$status2\" />";
                 }
                 pingAddress2("10.0.0.13");
                 ?>
@@ -94,7 +105,7 @@
                     } else {
                         $status3 = "images/offline.png";
                     }
-                    echo "<img src=\"$status3\" />";
+                    echo "<img class='status' src=\"$status3\" />";
                 }
                 pingAddress3("10.0.0.20");
                 ?>
