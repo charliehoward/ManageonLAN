@@ -26,6 +26,7 @@
                 }
                 ?>
         </div>
+		<br>
 		<div class="grid-container-top">
 			<div class="grid-item-top">Device</div>
   			<div class="grid-item-top">IP Address</div>
