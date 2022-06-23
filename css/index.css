@@ -13,7 +13,7 @@ a, a:hover, a:focus, a:active {
 }
 .grid-container-top {
 	display: grid;
-	grid-template-columns: 100px 125px 150px 150px 150px;
+	grid-template-columns: 100px 125px 150px 125px 150px 150px;
 	padding: 0px;
 	border: 0px;
 	background-color: lightGray;
@@ -23,45 +23,45 @@ a, a:hover, a:focus, a:active {
 	font-size: 18px;
 	font-weight: bold;
 }
-.grid-container-p {
+.grid-container-1 {
 	display: grid;
-	grid-template-columns: 100px 125px 150px 150px 150px;
+	grid-template-columns: 100px 125px 150px 125px 150px 150px;
 	padding: 0px;
 	border: 0px;
 	background-color: white;
 }
-.grid-container-p:hover {
+.grid-container-1:hover {
 	background-color: #7CB9E8;
 }
-.grid-item-p {
+.grid-item-1 {
 	padding: 12px;
 	font-size: 15px;
 }
-.grid-container-s {
+.grid-container-2 {
 	display: grid;
-	grid-template-columns: 100px 125px 150px 150px 150px;
+	grid-template-columns: 100px 125px 150px 125px 150px 150px;
 	padding: 0px;
 	border: 0px;
 	background-color: white;
 }
-.grid-container-s:hover {
+.grid-container-2:hover {
 	background-color: #7CB9E8;
 }
-.grid-item-s {
+.grid-item-2 {
 	padding: 12px;
 	font-size: 15px;
 }
-.grid-container-u {
+.grid-container-3 {
 	display: grid;
 	grid-template-columns: 100px 125px 150px 150px 150px;
 	padding: 0px;
 	border: 0px;
 	background-color: white;
 }
-.grid-container-u:hover {
+.grid-container-3:hover {
 	background-color: #7CB9E8;
 }
-.grid-item-u {
+.grid-item-3 {
 	padding: 12px;
 	font-size: 15px;
 }
