@@ -1,0 +1,50 @@
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+body {
+  background-color: #242f3f;
+  color: white;
+}
+.title {
+  position: relative;
+  display: flex;
+  z-index: 3;
+  justify-content: center;
+}
+.MOL {
+  position: fixed;
+  top: 250px;
+}
+.loading {
+  position: fixed;
+  top: 350px;
+}
+.loader-wrapper {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #242f3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+  align-items: center;
+}
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
