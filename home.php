@@ -14,7 +14,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12" role="main">
-        <h1 class="mb-4 mt-4"><span class="fas fa-power-off"></span><a href="index.html"> Manage on LAN</a></h1>
+        <h1 class="mb-4 mt-4"><span class="fas fa-power-off"></span><a href="home.php"> Manage on LAN</a></h1>
 		<div
                 <?php
                 if ($_SERVER['QUERY_STRING'] == 'successshutdown=true') {
@@ -36,9 +36,9 @@
 			<div class="grid-item-top"></div>
 		</div>
 		<div class="grid-container-1">
-  			<div class="grid-item-1">Porygon</div>
-			<div class="grid-item-1">10.0.0.3</div>
-  			<div class="grid-item-1">70:85:C2:5C:94:DC</div>
+  			<div class="grid-item-1">Device 1</div>
+			<div class="grid-item-1">10.0.0.2</div>
+  			<div class="grid-item-1">XX:XX:XX:XX:XX:XX</div>
 			<div class="grid-item-1">
                 <?php
                 function pingAddress1($ip1) {
@@ -50,7 +50,7 @@
                     }
                     echo "<img class='status' src=\"$status1\" />";
                 }
-                pingAddress1("10.0.0.3");
+                pingAddress1("10.0.0.2");
                 ?>
             </div>
   			<div class="grid-item-1">
@@ -65,9 +65,9 @@
 			</div>
   		</div> 
 		<div class="grid-container-2">
-			<div class="grid-item-2">Spyro</div>
-			<div class="grid-item-2">10.0.0.13</div>
-  			<div class="grid-item-2">D8:5E:D3:AA:E6:3F</div>
+			<div class="grid-item-2">Device 2</div>
+			<div class="grid-item-2">10.0.0.3</div>
+  			<div class="grid-item-2">XX:XX:XX:XX:XX:XX</div>
 			<div class="grid-item-2">
                 <?php
                 function pingAddress2($ip2) {
@@ -79,7 +79,7 @@
                     }
                     echo "<img class='status' src=\"$status2\" />";
                 }
-                pingAddress2("10.0.0.13");
+                pingAddress2("10.0.0.3");
                 ?>
             </div>
 			<div class="grid-item-2">
@@ -94,9 +94,9 @@
 			</div>
 		</div>
 		<div class="grid-container-3">
-			<div class="grid-item-3">Unicorn</div>
-			<div class="grid-item-3">10.0.0.20</div>
-  			<div class="grid-item-3">2C:F0:5D:82:CD:95</div>
+			<div class="grid-item-3">Device 3</div>
+			<div class="grid-item-3">10.0.0.4</div>
+  			<div class="grid-item-3">XX:XX:XX:XX:XX:XX</div>
 			<div class="grid-item-3">
                 <?php
                 function pingAddress3($ip3) {
@@ -108,7 +108,7 @@
                     }
                     echo "<img class='status' src=\"$status3\" />";
                 }
-                pingAddress3("10.0.0.20");
+                pingAddress3("10.0.0.4");
                 ?>
             </div>
 			<div class="grid-item-3">
